@@ -28,6 +28,16 @@ export default defineConfig({
       "src": "./src/assets/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+    "src": "./src/assets/180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+    "src": "./src/assets/120.png",
+      "sizes": "120x120",
+      "type": "image/png"
     }
   ]
     }
