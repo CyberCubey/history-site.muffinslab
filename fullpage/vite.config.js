@@ -38,6 +38,16 @@ export default defineConfig({
     "src": "./src/assets/120.png",
       "sizes": "120x120",
       "type": "image/png"
+    },
+    {
+    "src": "./src/assets/60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+    "src": "./src/assets/1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
     }
   ]
     }
