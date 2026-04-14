@@ -4,6 +4,12 @@ import Nav from "./components/nav.jsx";
 import Header from "../src/components/header.jsx"
 import Fill from "../src/components/body.jsx"
 
+if('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('./sw.js')
+	.then(reg => console.log('service worker registered', reg))
+	.catch(err => console.error('service worker not registered', err)) 
+}
+
 export default function App() {
   return (
     <>
